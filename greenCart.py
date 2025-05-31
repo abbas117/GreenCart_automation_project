@@ -26,6 +26,9 @@ for cart in add_to_cart:
   cart.click()
 print(len(add_to_cart))
 
+
+
+
 bag = driver.find_element(By.CSS_SELECTOR,'img[alt = "Cart"]').click()
 time.sleep(1)
 
